@@ -1,8 +1,12 @@
 # Administrate::Field::Money
 
+[![Code Climate](https://codeclimate.com/github/z-productions/administrate-field-money/badges/gpa.svg)](https://codeclimate.com/github/z-productions/administrate-field-money)
+
 A plugin to deal with money in [Administrate], with the help of [Money] gem.
 
 **Attribute must be in cents**.
+
+![Demo](https://raw.githubusercontent.com/z-productions/administrate-field-money/master/demo.gif)
 
 ## Usage
 

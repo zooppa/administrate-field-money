@@ -9,7 +9,7 @@ module Administrate
       end
 
       def to_s
-        money.format
+        money.format(symbol: symbol, separator: separator, delimiter: delimiter)
       end
 
       def money
@@ -18,6 +18,18 @@ module Administrate
 
       def code
         options.fetch(:code, 'USD')
+      end
+
+      def symbol
+        options.fetch(:symbol, money.symbol)
+      end
+
+      def separator
+        options.fetch(:separator, money.separator)
+      end
+
+      def delimiter
+        options.fetch(:delimiter, money.delimiter)
       end
     end
   end

@@ -26,7 +26,12 @@ Add to your `FooDashboard`:
 
 ```ruby
 ATTRIBUTE_TYPES = {
-  bar: Field::Money.with_options(unit: 'USD'), # EUR, CAD, GBP, AUD, JPY, ...
+  bar: Field::Money.with_options(
+    unit: 'USD', # EUR, CAD, GBP, AUD, JPY, ...
+    symbol: '$',
+    delimiter: ',',
+    separator: '.'
+  ),
 }.freeze
 ```
 The field will figure out the appropriate thousand separator and decimal delimiter for the unit.

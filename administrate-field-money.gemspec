@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-money'
-  gem.version = '0.0.2'
+  gem.version = '0.0.3'
   gem.authors = ['Michele Gerarduzzi']
   gem.email = ['michele.gerarduzzi@gmail.com']
   gem.homepage = 'https://github.com/z-productions/administrate-field-money'

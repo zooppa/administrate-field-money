@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    administrate-field-money (0.0.3)
+    administrate-field-money (0.0.4)
       administrate (~> 0.4.0)
       money (~> 6.7)
       rails (>= 4.2)

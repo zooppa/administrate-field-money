@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.0.4](https://github.com/zooppa/administrate-field-money/tree/v0.0.4) (2017-03-20)
+[Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.0.3...v0.0.4)
+
+* Bump up Administrate dependency
+
 ## [v0.0.3](https://github.com/zooppa/administrate-field-money/tree/v0.0.3) (2016-11-22)
 [Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.0.2...v0.0.3)
 

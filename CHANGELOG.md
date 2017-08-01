@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.0.6](https://github.com/zooppa/administrate-field-money/tree/v0.0.6) (2017-08-01)
+[Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.0.5...v0.0.6)
+
+* Upgrade money gem
+
 ## [v0.0.5](https://github.com/zooppa/administrate-field-money/tree/v0.0.5) (2017-04-03)
 [Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.0.4...v0.0.5)
 

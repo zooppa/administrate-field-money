@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency 'administrate', '< 1.0.0'
   gem.add_runtime_dependency 'rails', '>= 4.2'
-  gem.add_runtime_dependency 'money', '~> 6.7'
+  gem.add_runtime_dependency 'money', '~> 6'
 end

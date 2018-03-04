@@ -1,14 +1,38 @@
 //= require jquery.maskMoney.min
 
 $(function() {
-  $('.maskmoney').each(function() {
-    // Apply the mask and trigger it
-    $(this).maskMoney().trigger('mask');
+  var getUnmaskedMoneyCents,
+      updateSiblingHiddenFieldValueOf,
+      syncUnmaskedValueWithHiddenField,
+      $applyMaskMoneyTo,
+      setupMaskMoney,
+      EVENTS_TO_SYNC = 'change keyup paste';
 
-    // Sync unmasked value with hidden field
-    $(this).on('change keyup paste', function() {
-      var unmaskedMoneyCents = $(this).maskMoney('unmasked')[0] * 100;
-      $(this).siblings('[type="hidden"]').val(unmaskedMoneyCents);
-    })
-  });
+  getUnmaskedMoneyCents = function($el) {
+    return $el.maskMoney('unmasked')[0] * 100;
+  };
+
+  updateSiblingHiddenFieldValueOf = function($el, getNewValue) {
+    $el.siblings('[type="hidden"]').val(
+      getNewValue($el)
+    );
+  };
+
+  syncUnmaskedValueWithHiddenField = function() {
+    updateSiblingHiddenFieldValueOf($(this), getUnmaskedMoneyCents);
+  };
+
+  $applyMaskMoneyTo = function(el) {
+    return $(el).maskMoney().trigger('mask');
+  };
+
+  setupMaskMoney = function() {
+    $applyMaskMoneyTo(this)
+      .on(
+        EVENTS_TO_SYNC,
+        syncUnmaskedValueWithHiddenField
+      );
+  };
+
+  $('[data-maskmoney]').each(setupMaskMoney);
 });

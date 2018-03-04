@@ -18,7 +18,7 @@ module Administrate
       end
 
       def code
-        options.fetch(:code, 'USD')
+        options.fetch(:code, ::Money.default_currency.iso_code)
       end
 
       def symbol

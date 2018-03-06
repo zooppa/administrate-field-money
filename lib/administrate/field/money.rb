@@ -5,6 +5,8 @@ require 'administrate/engine'
 module Administrate
   module Field
     class Money < Administrate::Field::Text
+      delegate :currency, to: :money
+
       class Engine < ::Rails::Engine
         Administrate::Engine.add_javascript 'administrate-field-money/application'
       end
@@ -18,19 +20,19 @@ module Administrate
       end
 
       def code
-        options.fetch(:code, 'USD')
+        options.fetch(:code, ::Money.default_currency.iso_code)
       end
 
       def symbol
-        options.fetch(:symbol, money.symbol)
+        options.fetch(:symbol, currency.symbol)
       end
 
       def delimiter
-        options.fetch(:delimiter, money.delimiter)
+        options.fetch(:delimiter, currency.thousands_separator)
       end
 
       def separator
-        options.fetch(:separator, money.separator)
+        options.fetch(:separator, currency.decimal_mark)
       end
     end
   end

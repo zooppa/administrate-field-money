@@ -14,7 +14,7 @@ A plugin to deal with money in [Administrate], with the help of [Money] gem.
 Add it to your `Gemfile`:
 
 ```ruby
-gem 'administrate-field-money', '~> 0.0.5'
+gem 'administrate-field-money', '~> 0.1.0'
 ```
 
 Run:

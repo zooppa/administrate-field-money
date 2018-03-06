@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.1.0](https://github.com/zooppa/administrate-field-money/tree/v0.1.0) (2018-03-06)
+
+[Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.0.6...v0.1.0)
+
+* Use smarter defaults (thanks @serradura)
+
 ## [v0.0.6](https://github.com/zooppa/administrate-field-money/tree/v0.0.6) (2017-08-01)
 
 [Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.0.5...v0.0.6)

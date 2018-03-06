@@ -1,3 +1,4 @@
+require 'rails'
 require 'administrate/field/text'
 require 'administrate/engine'
 

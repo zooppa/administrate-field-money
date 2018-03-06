@@ -34,12 +34,13 @@ ATTRIBUTE_TYPES = {
   ),
 }.freeze
 ```
+
 The field will figure out the appropriate thousand separator and decimal delimiter for the unit.
 
 ## About
 
-Administrate::Field::Money is maintained by [z.productions].
+Administrate::Field::Money is maintained by [Zooppa].
 
-[Administrate]: https://github.com/thoughtbot/administrate
-[Money]: https://github.com/RubyMoney/money
-[z.productions]: https://www.z.productions/
+[administrate]: https://github.com/thoughtbot/administrate
+[money]: https://github.com/RubyMoney/money
+[zooppa]: https://www.zooppa.com/

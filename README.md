@@ -27,7 +27,7 @@ Add to your `FooDashboard`:
 ```ruby
 ATTRIBUTE_TYPES = {
   bar: Field::Money.with_options(
-    unit: 'USD', # EUR, CAD, GBP, AUD, JPY, ...
+    code: 'USD', # EUR, CAD, GBP, AUD, JPY, ...
     symbol: '$',
     delimiter: ',',
     separator: '.'

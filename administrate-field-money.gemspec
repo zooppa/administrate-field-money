@@ -6,8 +6,8 @@ Gem::Specification.new do |gem|
   gem.authors = ['Michele Gerarduzzi']
   gem.email = ['michele.gerarduzzi@gmail.com']
   gem.homepage = 'https://github.com/zooppa/administrate-field-money'
-  gem.summary = 'A plugin to deal with money in Administrate'
-  gem.description = gem.summary
+  gem.summary = 'Money field plugin for Administrate'
+  gem.description = 'A plugin to deal with money in Administrate'
   gem.license = 'MIT'
 
   gem.require_paths = ['lib']

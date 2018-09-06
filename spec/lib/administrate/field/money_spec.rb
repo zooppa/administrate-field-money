@@ -48,6 +48,11 @@ describe Administrate::Field::Money do
         allow(subject).to receive(:symbol).and_return('€')
         expect(output).to eq '€1.99'
       end
+
+      it 'returns the formatted amount without a symbol' do
+        allow(subject).to receive(:symbol).and_return(nil)
+        expect(output).to eq '1.99'
+      end
     end
   end
 

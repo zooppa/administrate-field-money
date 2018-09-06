@@ -9,7 +9,7 @@ $(function() {
       EVENTS_TO_SYNC = 'change keyup paste';
 
   getUnmaskedMoneyCents = function($el) {
-    return $el.maskMoney('unmasked')[0] * 100;
+    return $el.maskMoney('unmasked')[0];
   };
 
   updateSiblingHiddenFieldValueOf = function($el, getNewValue) {

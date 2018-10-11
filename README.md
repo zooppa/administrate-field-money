@@ -5,9 +5,8 @@
 
 A plugin to deal with money in [Administrate], with the help of [Money] gem.
 
-**Attribute must be in cents**.
-
-![Demo](https://raw.githubusercontent.com/zooppa/administrate-field-money/master/demo.gif)
+**IMPORTANT: this plugin expects the attribute to be an integer representing the
+number of cents, with a name ending in `_cents`**.
 
 ## Usage
 
@@ -27,7 +26,7 @@ Add to your `FooDashboard`:
 
 ```ruby
 ATTRIBUTE_TYPES = {
-  bar: Field::Money.with_options(
+  amount_cents: Field::Money.with_options(
     code: 'USD', # EUR, CAD, GBP, AUD, JPY, ...
     symbol: '$',
     delimiter: ',',
@@ -37,6 +36,8 @@ ATTRIBUTE_TYPES = {
 ```
 
 The field will figure out the appropriate thousand separator and decimal delimiter for the unit.
+
+![Demo](https://raw.githubusercontent.com/zooppa/administrate-field-money/master/demo.gif)
 
 ## About
 

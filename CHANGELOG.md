@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.1.1](https://github.com/zooppa/administrate-field-money/tree/v0.1.1) (2018-10-11)
+
+[Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.1.0...v0.1.1)
+
+* Clarify expected attribute name (thanks @pkonovalov and @MatteoJoliveau)
+
 ## [v0.1.0](https://github.com/zooppa/administrate-field-money/tree/v0.1.0) (2018-03-06)
 
 [Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.0.6...v0.1.0)

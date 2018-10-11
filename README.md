@@ -13,7 +13,7 @@ number of cents, with a name ending in `_cents`**.
 Add it to your `Gemfile`:
 
 ```ruby
-gem 'administrate-field-money', '~> 0.1.0'
+gem 'administrate-field-money', '~> 0.1.1'
 ```
 
 Run:

@@ -43,6 +43,8 @@ The field will figure out the appropriate thousand separator and decimal delimit
 
 Administrate::Field::Money is maintained by [Zooppa].
 
+See also the list of [contributors](https://github.com/zooppa/administrate-field-money/contributors) who participated in this project.
+
 [administrate]: https://github.com/thoughtbot/administrate
 [money]: https://github.com/RubyMoney/money
 [zooppa]: https://www.zooppa.com/

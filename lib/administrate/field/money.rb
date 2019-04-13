@@ -1,4 +1,5 @@
 require 'rails'
+require 'money'
 require 'administrate/field/text'
 require 'administrate/engine'
 

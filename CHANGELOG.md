@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.1.2](https://github.com/zooppa/administrate-field-money/tree/v0.1.2) (2019-04-15)
+
+[Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.1.1...v0.1.2)
+
+* Require `money` gem (thanks @iamnader)
+
 ## [v0.1.1](https://github.com/zooppa/administrate-field-money/tree/v0.1.1) (2018-10-11)
 
 [Full Changelog](https://github.com/zooppa/administrate-field-money/compare/v0.1.0...v0.1.1)

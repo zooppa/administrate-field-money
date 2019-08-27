@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-money'
-  gem.version = '0.1.2'
+  gem.version = '0.2.0'
   gem.authors = ['Zooppa']
   gem.email = ['dev@zooppa.com']
   gem.homepage = 'https://github.com/zooppa/administrate-field-money'

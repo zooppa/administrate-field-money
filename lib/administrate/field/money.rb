@@ -3,6 +3,9 @@ require 'money'
 require 'administrate/field/text'
 require 'administrate/engine'
 
+Money.default_currency = 'USD'
+Money.rounding_mode = BigDecimal::ROUND_HALF_EVEN
+
 module Administrate
   module Field
     class Money < Administrate::Field::Text

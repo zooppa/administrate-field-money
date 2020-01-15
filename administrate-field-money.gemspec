@@ -17,6 +17,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'administrate', '< 1.0.0'
   gem.add_runtime_dependency 'rails', '>= 4.2', '< 7'
   gem.add_runtime_dependency 'money', '~> 6.13'
+  gem.add_runtime_dependency 'rack', '~> 2.0', '>= 2.0.8'
 
   gem.add_development_dependency 'rake', '~> 13.0'
   gem.add_development_dependency 'rspec', '~> 3.7'

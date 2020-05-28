@@ -8,6 +8,16 @@ A plugin to deal with money in [Administrate], with the help of [Money] gem.
 **IMPORTANT: this plugin expects the attribute to be an integer representing the
 number of cents, with a name ending in `_cents`**.
 
+---
+
+### IMPORTANT NOTICE
+
+**This gem is not actively maintained anymore**.
+
+If you’re interested in taking over and steward the project moving forward, please get in touch.
+
+---
+
 ## Usage
 
 Add it to your `Gemfile`:

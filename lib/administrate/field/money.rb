@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails'
 require 'money'
 require 'administrate/field/text'

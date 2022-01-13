@@ -1,4 +1,6 @@
-$:.push File.expand_path('../lib', __FILE__)
+# frozen_string_literal: true
+
+$LOAD_PATH.push File.expand_path('lib', __dir__)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-money'
@@ -9,15 +11,18 @@ Gem::Specification.new do |gem|
   gem.summary = 'Money field plugin for Administrate'
   gem.description = 'A plugin to deal with money in Administrate'
   gem.license = 'MIT'
+  gem.metadata['rubygems_mfa_required'] = 'true'
+
+  gem.required_ruby_version = '>= 2.7.5'
 
   gem.require_paths = ['lib']
   gem.files = `git ls-files`.split("\n")
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
 
   gem.add_runtime_dependency 'administrate', '< 1.0.0'
-  gem.add_runtime_dependency 'rails', '>= 4.2', '< 8'
   gem.add_runtime_dependency 'money', '~> 6.13'
   gem.add_runtime_dependency 'rack', '~> 2.0', '>= 2.0.8'
+  gem.add_runtime_dependency 'rails', '>= 4.2', '< 8'
 
   gem.add_development_dependency 'rake', '~> 13.0'
   gem.add_development_dependency 'rspec', '~> 3.7'

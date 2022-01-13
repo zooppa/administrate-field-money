@@ -1,7 +1,6 @@
 # Administrate::Field::Money
 
-[![Build Status](https://travis-ci.com/zooppa/administrate-field-money.svg?branch=master)](https://travis-ci.com/zooppa/administrate-field-money)
-[![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-money/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-money)
+[![Build status](https://github.com/zooppa/administrate-field-money/actions/workflows/build.yml/badge.svg)](https://github.com/zooppa/administrate-field-money/actions/workflows/build.yml) [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-money/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-money)
 
 A plugin to deal with money in [Administrate], with the help of [Money] gem.
 

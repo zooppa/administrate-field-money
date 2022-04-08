@@ -4,7 +4,7 @@ $LOAD_PATH.push File.expand_path('lib', __dir__)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-money'
-  gem.version = '0.2.1'
+  gem.version = '0.3.0'
   gem.authors = ['Zooppa']
   gem.email = ['dev@zooppa.com']
   gem.homepage = 'https://github.com/zooppa/administrate-field-money'

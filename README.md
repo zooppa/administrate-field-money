@@ -22,7 +22,7 @@ If you’re interested in taking over and steward the project moving forward, pl
 Add it to your `Gemfile`:
 
 ```ruby
-gem 'administrate-field-money', '~> 0.2.1'
+gem 'administrate-field-money', '~> 0.3.0'
 ```
 
 Run:

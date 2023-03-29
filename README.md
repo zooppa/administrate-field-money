@@ -1,11 +1,6 @@
 # Administrate::Field::Money
 
-[![Build status](https://github.com/zooppa/administrate-field-money/actions/workflows/build.yml/badge.svg)](https://github.com/zooppa/administrate-field-money/actions/workflows/build.yml) [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-money/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-money)
-
-A plugin to deal with money in [Administrate], with the help of [Money] gem.
-
-**IMPORTANT: this plugin expects the attribute to be an integer representing the
-number of cents, with a name ending in `_cents`**.
+[![No Maintenance Intended](https://unmaintained.tech/badge.svg)](https://unmaintained.tech/) [![Build status](https://github.com/zooppa/administrate-field-money/actions/workflows/build.yml/badge.svg)](https://github.com/zooppa/administrate-field-money/actions/workflows/build.yml) [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-money/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-money)
 
 ---
 
@@ -16,6 +11,11 @@ number of cents, with a name ending in `_cents`**.
 If you’re interested in taking over and steward the project moving forward, please get in touch.
 
 ---
+
+A plugin to deal with money in [Administrate], with the help of [Money] gem.
+
+**IMPORTANT: this plugin expects the attribute to be an integer representing the
+number of cents, with a name ending in `_cents`**.
 
 ## Usage
 
